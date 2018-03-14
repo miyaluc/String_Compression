@@ -24,6 +24,7 @@ namespace Compress_a_String
                     countConsecutive = 0;
                 }
             }
+            Console.WriteLine(sb);
             return sb.Length < input.Length ? sb.ToString() : input;
         }
     }
